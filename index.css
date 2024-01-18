@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(232, 235, 235);
+    color: rgb(0, 0, 0);
+    font-style: normal;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font: bolder;
+    font-family: "Open Sans", sans-serif;
+}
+
+nav{
+    width: 100%;
+    height: 10vh;
+    font-size: 20px;
+    display: flex;
+    background-color: white;
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+}
+
+.logo{
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    > img {
+        width: 100px;
+        height: 100px;
+        object-fit:contain;
+
+    }
+}
+
+.main-image{
+    width: 50%;
+     
+    >img {
+        width: 100%;
+        height: 100%;
+        object-fit:contain;
+        
+        border-radius: 6px;
+        filter: grayscale(1);
+    }
+}
+section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    padding: 30px 0;
+
+     
+}
+.highlight-mark{
+    font-size: 44px;
+}
+
+.side-heading{
+    font-size: 40px;
+}
+.section-paragraph{
+    font-size: 20px;
+}
+
+.btn-section{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.dropdown {
+    display: flex;
+    margin: 0 0 0 -400px;
+    gap: 40px;
+}
+
+.dropdown-right{
+    display: flex;
+    margin: 0 50px 0 0;
+    gap: 20px;
+}
+
+button{
+    width: 142px;
+    height: 47px;
+    background-color: rgb(254,52,72);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+button:hover{
+    width: 142px;
+    height: 47px;
+    background-color: rgb(2,146,174)
+
+}
+
+
+.highlight-mark{
+    color: rgb(254,52,72);
+    background: transparent;
+    font-weight: 2000px;
+    font-family: "Montserrat", sans-serif;
+}
+
+footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+
+
+    display: flex;
+    flex-direction: column;
+
+    padding-top: 40px;
+}
+
+.footer-items {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-item{
+    display: flex;
+
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+
+    > a {
+        display:flex;
+        justify-content: space-between;
+        text-decoration: none;
+        color: white;
+    }
+}
+.logos{
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.trade-mark{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+    margin: 50px 0;
+
+
+}
+
+ 
+.inner-links{
+
+    > a {
+        text-decoration: none;
+        color: white;
+    }
+
+}
